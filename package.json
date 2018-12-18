@@ -1,0 +1,26 @@
+{
+  "name": "LogsAnalytics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "basic-auth": "1.0.3",
+    "bcryptjs": "^2.1.0",
+    "body-parser": "~1.13.2",
+    "express": "~4.13.1",
+    "express-jwt": "^3.0.1",
+    "http-auth": "2.2.8",
+    "jsonwebtoken": "^5.0.2",
+    "method-override": "2.3.5",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.5",
+    "mongoose": "4.4.14",
+    "mongoose-double": "0.0.1",
+    "mongous": "^0.2.7",
+    "node-cron": "^1.1.2",
+    "node-gcm": "~0.14.3",
+    "slack-node": "^0.1.8"
+  }
+}
